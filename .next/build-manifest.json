@@ -1,0 +1,63 @@
+{
+  "polyfillFiles": [
+    "static/chunks/polyfills-0d1b80a048d4787e.js"
+  ],
+  "devFiles": [],
+  "ampDevFiles": [],
+  "lowPriorityFiles": [
+    "static/mIuK6hr00W8Zs7lesq-in/_buildManifest.js",
+    "static/mIuK6hr00W8Zs7lesq-in/_ssgManifest.js"
+  ],
+  "rootMainFiles": [],
+  "pages": {
+    "/": [
+      "static/chunks/webpack-a99d8afd8e82d4ec.js",
+      "static/chunks/framework-7dc8a65f4a0cda33.js",
+      "static/chunks/main-2043948c1246ba90.js",
+      "static/css/e1f182b4a46f073a.css",
+      "static/chunks/967-af8fe442df4e25eb.js",
+      "static/chunks/294-c9eceacd0287c94c.js",
+      "static/chunks/420-24cf66c69b6a009b.js",
+      "static/chunks/624-3f58437efe371434.js",
+      "static/chunks/pages/index-52b43da42d387140.js"
+    ],
+    "/Card": [
+      "static/chunks/webpack-a99d8afd8e82d4ec.js",
+      "static/chunks/framework-7dc8a65f4a0cda33.js",
+      "static/chunks/main-2043948c1246ba90.js",
+      "static/chunks/967-af8fe442df4e25eb.js",
+      "static/chunks/pages/Card-7c94c65473248291.js"
+    ],
+    "/Menu": [
+      "static/chunks/webpack-a99d8afd8e82d4ec.js",
+      "static/chunks/framework-7dc8a65f4a0cda33.js",
+      "static/chunks/main-2043948c1246ba90.js",
+      "static/chunks/967-af8fe442df4e25eb.js",
+      "static/chunks/294-c9eceacd0287c94c.js",
+      "static/chunks/420-24cf66c69b6a009b.js",
+      "static/chunks/624-3f58437efe371434.js",
+      "static/chunks/pages/Menu-78444f6a9127d9d4.js"
+    ],
+    "/_app": [
+      "static/chunks/webpack-a99d8afd8e82d4ec.js",
+      "static/chunks/framework-7dc8a65f4a0cda33.js",
+      "static/chunks/main-2043948c1246ba90.js",
+      "static/chunks/pages/_app-9538641435026bd3.js"
+    ],
+    "/_error": [
+      "static/chunks/webpack-a99d8afd8e82d4ec.js",
+      "static/chunks/framework-7dc8a65f4a0cda33.js",
+      "static/chunks/main-2043948c1246ba90.js",
+      "static/chunks/pages/_error-942918685354aae9.js"
+    ],
+    "/form": [
+      "static/chunks/webpack-a99d8afd8e82d4ec.js",
+      "static/chunks/framework-7dc8a65f4a0cda33.js",
+      "static/chunks/main-2043948c1246ba90.js",
+      "static/chunks/967-af8fe442df4e25eb.js",
+      "static/chunks/294-c9eceacd0287c94c.js",
+      "static/chunks/pages/form-f687ffe402deaa67.js"
+    ]
+  },
+  "ampFirstPages": []
+}
