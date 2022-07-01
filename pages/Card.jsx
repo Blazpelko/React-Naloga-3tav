@@ -25,12 +25,17 @@ const elementi = [
 const CreateCard = ({ childToParent }) => {
   const [items, setItems] = useState([]);
 
+  // function addItem(element) {
+  //   setItems((items) => [...items, element]);
+  // }
+  
   function addItem(element) {
-    setItems((items) => [...items, element]);
+    setItems([...items,element]);
   }
 
   function removeItem(element) {
-    setItems(items.filter((i) => i !== element));
+    let temp=items.filter((i) => i !== element)
+    setItems(temp);
   }
 
   //Vprašaj za tale useEffect ali je vredu!!
@@ -54,7 +59,7 @@ const CreateCard = ({ childToParent }) => {
                   disabled={items.some((i) => i === element)}
                   primary
                   color="green"
-                  onClick={() => addItem(element)}
+                  onClick={()=>addItem(element)}
                 >
                   Dodaj v košarico
                 </Button>

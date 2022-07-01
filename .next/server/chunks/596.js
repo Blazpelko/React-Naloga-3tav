@@ -113,14 +113,18 @@ const elementi = [
 ];
 const CreateCard = ({ childToParent  })=>{
     const { 0: items , 1: setItems  } = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)([]);
+    // function addItem(element) {
+    //   setItems((items) => [...items, element]);
+    // }
     function addItem(element) {
-        setItems((items)=>[
-                ...items,
-                element
-            ]);
+        setItems([
+            ...items,
+            element
+        ]);
     }
     function removeItem(element) {
-        setItems(items.filter((i)=>i !== element));
+        let temp = items.filter((i)=>i !== element);
+        setItems(temp);
     }
     //Vprašaj za tale useEffect ali je vredu!!
     (0,react__WEBPACK_IMPORTED_MODULE_1__.useEffect)(()=>{
